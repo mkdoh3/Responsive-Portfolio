@@ -6,9 +6,6 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
-* {
-  box-sizing: border-box;
-}
 
 html,
 body {
@@ -259,9 +256,6 @@ input[type=submit] {
 
 
 
-
-
-
 @media screen and (max-width: 980px) {
 
    #logo {
@@ -269,28 +263,31 @@ input[type=submit] {
       height: 70px;
       font-size: 28px; 
       line-height: 70px;
-      margin-left: 77px;
+      margin-left: 60px;
     }
 
     nav {
-      margin-right: 60px;
+      margin-right: 40px;
       margin-top: 20px;
     }
 
     .main-section {
-      max-width: 375px;
-      margin-left: 77px;
+      width: 55%;
+      margin-left: 60px;
+      padding: 20px;
     }
 
   .sidebar{
+    width: 40%;
+    text-align: center;
     max-width: 240px;
-    margin-right: 60px;
-    padding: 24px;
+    margin-right: 40px;
+    padding: 20px;
   }
 
 
   .sidebar h2 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 12px;
     margin-bottom: 12px;
 
@@ -309,6 +306,17 @@ input[type=submit] {
 
   footer, .push {
     height: 72px;
+  }
+
+  .work:nth-child(even){
+    margin-right: 55px
+  }
+
+  .work {
+    width: 75%;
+    margin: 20px auto;
+    float: none;
+
   }
 
 
@@ -340,6 +348,9 @@ input[type=submit] {
       max-width: 748px;
       margin-left: auto;
       margin-right: auto;
+      overflow: auto;
+     
+    
     }
 
     .sidebar{
@@ -348,6 +359,7 @@ input[type=submit] {
       max-width: 748px;
       margin: 0px auto;
       text-align: center;
+      clear: both;
     }
 
 
@@ -383,6 +395,11 @@ input[type=submit] {
     height: 80px;
   }
 
+  .work {
+  display: inline-block;
+  width: 43%;
+}
+
 
 
 @media screen and (max-width: 640px) {
@@ -395,7 +412,6 @@ input[type=submit] {
     position: static;
     margin: 0 0 10px;
   }
-
 
   #logo {
     width: 100%;
@@ -423,8 +439,6 @@ input[type=submit] {
   }
 
 
-
-
   .main-section {
     width:95%;
     float: none;
@@ -444,12 +458,9 @@ input[type=submit] {
 
   .sidebar{
     width:95%;
-    float: none;
     max-width: 620px;
-    margin: 0px auto;
     text-align: center;
   }
-
 
   .sidebar h2 {
     font-size: 22px;
@@ -481,6 +492,17 @@ input[type=submit] {
 
   footer, .push {
     height: 80px;
+  }
+
+   .work:nth-child(even){
+    margin-right: 55px
+  }
+
+  .work {
+    width: 75%;
+    margin: 20px auto;
+    float: none;
+
   }
 }
 
